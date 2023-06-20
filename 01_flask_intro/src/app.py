@@ -2,7 +2,7 @@ from flask import Flask, render_template, jsonify, make_response, request
 from models import db, Pet, Owner
 from flask_migrate import Migrate
 
- 
+  
 app = Flask(__name__)
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
